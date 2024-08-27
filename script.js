@@ -50,7 +50,7 @@ function calculateGroupAverage(groupId) {
             plugins: {
                 title: {
                     display: true,
-                    text: `Promedio ${groupId}: ${average.toFixed(2)}`
+                    text: `Promedio ${average.toFixed(2)}`
                 }
             }
         }
