@@ -1,0 +1,84 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+/* Estilo de las preguntas */
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los selectores */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Botón */
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Canvas para el gráfico */
+/* Canvas para el gráfico */
+canvas {
+    margin-top: 30px;
+    width: 50%;  /* Reduce el ancho a la mitad del contenedor */
+    height: auto;  /* Ajusta la altura automáticamente */
+    max-width: 300px;  /* Limita el ancho máximo a 300px */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
